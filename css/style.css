@@ -942,7 +942,9 @@ body.offcanvas {
   height: 300px;
   width: 100%;
   display: block;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  border-radius: 10px;  
+}
   .project .desc {
     position: absolute;
     top: 0;
@@ -1510,4 +1512,8 @@ textarea.form-control::placeholder {
 
 .year-color5 {
   color: #2fa499;
+}
+
+.con h3:hover {
+  text-decoration: underline;
 }
